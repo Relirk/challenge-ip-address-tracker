@@ -1,0 +1,61 @@
+header {
+  background-image: url("../images/pattern-bg.png");
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: aliceblue;
+  font-weight: 500;
+}
+
+.ip-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.2rem;
+  margin-bottom: 3rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.ip-container input {
+  width: 28rem;
+  padding: 15px 0 15px 15px;
+  border: none;
+  border-radius: 12px 0 0 12px;
+  color: hsl(0, 0%, 17%);
+}
+
+.ip-container button {
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 0 12px 12px 0;
+}
+
+.ip-container button:hover {
+  background-color: #556bd1;
+  border: solid 1px #507dcd;
+}
+
+@media only screen and (max-width: 375px) {
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .ip-container {
+    margin-bottom: 1.2rem;
+  }
+
+  .ip-container button {
+    width: 6rem;
+  }
+}
